@@ -134,7 +134,7 @@
 			height: 6rem;
 			width: 6rem;
 			line-height: 5.5rem;
-			@include text($font--role-emphasis, 5rem)
+			@include text($font--role-emphasis, 5rem);
 			text-align: center;
 			background-color: $color__gray--darkest;
 			color: #fff;

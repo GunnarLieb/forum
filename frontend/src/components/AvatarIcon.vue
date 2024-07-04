@@ -133,7 +133,7 @@
 			width: 3rem;
 			line-height: 3rem;
 			cursor: pointer;
-			@include text($font--role-emphasis, 2rem)
+			@include text($font--role-emphasis, 2rem);
 			text-align: center;
 			border-radius: 100%;
 			background-color: $color__gray--darkest;
