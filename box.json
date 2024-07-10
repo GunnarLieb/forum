@@ -7,11 +7,11 @@
     // author of this package
     "author" : "sbkwgh/forum",
     // location of where to download the package, overrides ForgeBox location
-    "location" : "https://github.com/GunnarLieb/forum.git",
+    "location" : "https://github.com/GunnarLieb/forum/archive/refs/heads/master.zip",
     // defined it then installs were the CommandBox command was executed.
     "directory" : "",
     "createPackageDirectory" : "true",
-    "packageDirectory" : ""
+    "packageDirectory" : "forum"
     "Homepage" : "URL",
     "Documentation" : "URL",
     "Repository" : { 
