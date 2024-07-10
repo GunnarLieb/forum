@@ -1,0 +1,46 @@
+{
+    "name" : "Fork of vue forum",
+    // ForgeBox unique slug
+    "slug" : "",
+    // semantic version of your package
+    "version" : "1.0.0.buildID",
+    // author of this package
+    "author" : "sbkwgh/forum",
+    // location of where to download the package, overrides ForgeBox location
+    "location" : "https://github.com/GunnarLieb/forum.git",
+    // defined it then installs were the CommandBox command was executed.
+    "directory" : "",
+    "createPackageDirectory" : "true",
+    "packageDirectory" : ""
+    "Homepage" : "URL",
+    "Documentation" : "URL",
+    "Repository" : { 
+        "type" : "git", "URL" : ""
+    },
+    "Bugs" : "URL",
+    "shortDescription" : "just a fork with a few frontend related updates",
+    "description" : "",
+    "instructions" : "",
+    // Change log, if not set, it looks for a changelog.md, changelog or changelog.txt
+    "changelog" : ""
+    // ForgeBox contribution type
+    "type" : "1 from forgebox available types",
+    // ForgeBox keywords, array of strings
+    "keywords" : [ "vue", "forum" ],
+    // Bit that designates the package as a private ForgeBox package.
+    // Private packages are not publicly accessible, but still
+    // offer all the benefits of ForgeBox.
+    "private" : "false",
+
+     // default project URL if not using our start server commands
+    "ProjectURL" : "http://railopresso.local/myApp",
+    // license array of licenses it can have
+    "License" : [
+        { "type" : "MIT", "URL" : "" }
+    ]
+    // contributors array of strings or structs: name,email,url 
+    "Contributors" : [ "Luis Majano", "Luis Majano <lmajano@mail.com>", {name="luis majano", email="", url=""} ],
+    // array of strings of files to ignore when installing the package similar to .gitignore pattern spec 
+    "ignore" : [ "logs/*", "readme.md" ]
+
+}
